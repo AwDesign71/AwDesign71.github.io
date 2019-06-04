@@ -2178,7 +2178,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2204,7 +2204,7 @@ input, select, textarea {
 
 		.image.feature {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 2em 5em;
 		}
 
 			.image.feature img {
@@ -2245,7 +2245,7 @@ input, select, textarea {
 			}
 
 			.image.icon:hover:after {
-				opacity: 1;
+				opacity: 0;
 			}
 
 	span.image.icon {
@@ -2689,8 +2689,12 @@ input, select, textarea {
 /* Header */
 
 	#header {
+     
+		 /* background-image: url('images/top-3200.svg'), url('../../images/sky.jpg');
+		 background-attachment: fixed;
+		 background-position: top center; */
 		background-attachment: scroll,							scroll,					fixed;
-		/* background-image: url("./images/charlotte.jpg"), url("images/overlay.png"), url("../../images/header.jpg"); */
+		background-image: url("images/top-3200.svg"),  url("../../images/sky.jpg"), url("../../images/sky.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2780,8 +2784,8 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
-		background-image: url("images/bottom-3200.svg");
+		background-color: #162f4d;
+		background-color: #162f4d;
 		background-position: top center;
 		background-repeat: repeat-x;
 		background-size: 3200px 460px;
